@@ -1,13 +1,25 @@
 *
 body{
+    margin: 0;
+    padding: 0;
     background: rgb(14, 109, 22);
 
+}
+.imagem img{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    position:absolute;
+    left: 320px;
+    border-radius: 8px;
+    
 }
 h1{
     max-width: 480px;
     text-align: center;
     margin: 60px auto;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow:  0.1em 0.1em 0.1em rgb(65, 64, 64);
     color: rgb(51, 53, 53);
 }
 h1::after{
