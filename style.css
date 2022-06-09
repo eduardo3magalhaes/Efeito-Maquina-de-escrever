@@ -28,7 +28,7 @@ h1::after{
     opacity: 1;
     animation: pisca 1s infinite;
 }
-@keyframes pisca{
+@keyframes pisca {
     0%, 100%{
         opacity: 1;
         }
